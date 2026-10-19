@@ -1,3 +1,5 @@
+First launch: Allow about a minute or longer for caches to build, depending on your computer. The character, animation, and Toth may not be ready immediately. Later launches reuse the prepared caches.
+
 # Sigma Alpha Omega — Idle Experiment
 
 **Created by Daniel Losey**  
