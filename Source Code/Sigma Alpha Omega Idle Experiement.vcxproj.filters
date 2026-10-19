@@ -1,0 +1,810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Main Screen">
+      <UniqueIdentifier>{30e58b24-a54a-41eb-8697-977767b6d31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Screen">
+      <UniqueIdentifier>{b9c3ff2c-ccd9-4885-b57c-6bd89db478e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Screen\Main Screen Particle">
+      <UniqueIdentifier>{4482c440-27bb-4861-b9ca-c9dd9ff18b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Screen\Main Screen Particle">
+      <UniqueIdentifier>{ad7f785a-00e2-4709-8f23-e29e0ae69e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program">
+      <UniqueIdentifier>{0b2dd724-57aa-4b21-a627-0839d9986ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Screen\Main Screen Buttons">
+      <UniqueIdentifier>{6465a966-47f7-4038-b8ec-9480def1acec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Screen\Main Screen Title">
+      <UniqueIdentifier>{a124520d-cb45-4d07-92a8-1e4fc663a068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Screen\Main Screen Buttons">
+      <UniqueIdentifier>{5cdada58-48eb-4237-a660-70e8cd7ed3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Screen\Main Screen Title">
+      <UniqueIdentifier>{eae14ede-2df9-4cfd-a302-83f30e162b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Screen\Main Screen Conductor">
+      <UniqueIdentifier>{6d5f846b-4b53-46aa-933f-18f882bb323f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Screen\Main Screen Conductor">
+      <UniqueIdentifier>{5aa0c12b-6739-40f6-8c50-cde6afea0b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Screen\Main Screen Conductor Cache Node">
+      <UniqueIdentifier>{5a967d76-07b4-45f6-be14-fe223e0e0808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Screen\Main Screen Conductor Cache Node">
+      <UniqueIdentifier>{1d2ec1d3-ef59-48c8-a935-e97a4aecc3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Screen\Main Screen Math Cache Node">
+      <UniqueIdentifier>{d038c495-844a-4c33-ac13-627e78d805a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Screen\Main Screen Math Cache Node">
+      <UniqueIdentifier>{d4f643c5-d997-4d81-8a30-77bfa643655b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Prime Cache Node">
+      <UniqueIdentifier>{917451c9-1e89-430b-b4ae-7ab054ecc1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Prime Cache Node">
+      <UniqueIdentifier>{8a4c3677-c361-4ace-b406-e70ec4c9a608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Prime Conductor">
+      <UniqueIdentifier>{52e37062-bc75-4d26-8044-4c945f2ce57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Prime Conductor">
+      <UniqueIdentifier>{9a6709ac-b678-4a41-894f-e5e00c2f510e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language">
+      <UniqueIdentifier>{d460acc9-f5d3-4461-8620-812b2aa869b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Upper">
+      <UniqueIdentifier>{053d5acf-22ce-4cbe-8e64-3b4727b660b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Lower">
+      <UniqueIdentifier>{db316c58-1a1a-4360-92cc-a53c003f6659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Punctuation">
+      <UniqueIdentifier>{5b57a136-98dd-4c1d-9421-90c49beeac34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Symbols">
+      <UniqueIdentifier>{9fd3e680-8663-4af3-af90-855dc8b7e512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language">
+      <UniqueIdentifier>{762edcea-5cbf-4580-84ff-0a221c957d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Upper">
+      <UniqueIdentifier>{5903c74d-0684-4530-9c70-3fa0d40b47a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Lower">
+      <UniqueIdentifier>{e502b6fd-ca2c-4ee7-8aec-e1ea3ad46f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Punctuation">
+      <UniqueIdentifier>{42f49646-d3c3-44a2-8c8f-049d0a284b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Symbols">
+      <UniqueIdentifier>{5727ac7c-eae2-450c-b715-01e9cffdaae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Numbers">
+      <UniqueIdentifier>{e0208392-28ef-4b3b-8fc9-f33ccadd709e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Numbers">
+      <UniqueIdentifier>{32eb6a30-6896-4622-bc86-51d77363c387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\English Rules">
+      <UniqueIdentifier>{08ce7a34-fdad-4402-b3b1-7e814b290629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\English Rules">
+      <UniqueIdentifier>{d9c62176-dc68-4de8-9f0f-1027ae1b2a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Definitions">
+      <UniqueIdentifier>{10aa2c00-8226-4d9d-ad44-68a1da2e8eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Definitions">
+      <UniqueIdentifier>{dfc409cb-f48a-4a33-99d8-d7dff10ce500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Word Proper">
+      <UniqueIdentifier>{91701013-8934-43b2-bd51-23ca05a9d0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Word Proper">
+      <UniqueIdentifier>{f93fde17-5d84-475a-8fa8-f4a9f137794c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Up Low Sym Pun Num Conductor">
+      <UniqueIdentifier>{64c26e61-3446-43c4-9fbe-b2a461d58665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Up Low Sym Pun Num Conductor">
+      <UniqueIdentifier>{570977d7-5a05-443e-bb90-8cfc35af9382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language\Alphabet Conductor">
+      <UniqueIdentifier>{482504e3-1b22-4eb3-8fc0-3f78416653af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Language\Alphabet Conductor">
+      <UniqueIdentifier>{311456a9-cf52-46ee-86c3-10752247ca01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Toth">
+      <UniqueIdentifier>{dcf158a0-5197-4d8d-8d61-5ef8a5c5a27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Toth\Overlay">
+      <UniqueIdentifier>{6d48f005-0659-4e89-b800-5b781c21951d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Toth">
+      <UniqueIdentifier>{f14c80da-2bb5-47c8-8f3e-376dd75abc88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Toth\Overlay">
+      <UniqueIdentifier>{fd549a92-3616-4eca-9bbd-495f6548911d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settlement">
+      <UniqueIdentifier>{cbba5294-2e7e-45f4-9091-3e153adb7d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settlement">
+      <UniqueIdentifier>{992eec09-3d7f-49f5-b0a7-641f8225d5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Conductor Cache Node">
+      <UniqueIdentifier>{aff9b65b-6737-4eeb-adf1-9e9a40e19a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Conductor Cache Node">
+      <UniqueIdentifier>{c28d369b-729b-4748-83fc-7259ef7f8f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settlement\Settlement Conductor Cache Node">
+      <UniqueIdentifier>{3649d55e-1d21-4959-924d-2b6c028cb441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settlement\Settlement Conductor Cache Node">
+      <UniqueIdentifier>{c204e9c2-c66b-4844-9300-3426f85cde88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Harvest">
+      <UniqueIdentifier>{ba3e4beb-c4e0-47b8-a24c-a7e011e84322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Harvest">
+      <UniqueIdentifier>{f0ed4b14-e0e2-45d0-88d6-882cf49c5772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Harvest\Harvest Tall Grass Cache Node">
+      <UniqueIdentifier>{062123dc-5377-491e-ac48-28089368a4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Harvest\Harvest Tall Grass Cache Node">
+      <UniqueIdentifier>{a6da7474-b40d-419e-b2ef-3772418ff624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{cd835e05-3b69-4771-b163-5e8b23a45611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{e576fce8-f965-4209-b604-97d78a8f07f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Feet">
+      <UniqueIdentifier>{9528cf03-ccae-4463-8ccf-ead76d6ec0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Feet">
+      <UniqueIdentifier>{3ab7bb11-c60a-4b94-a1c9-424c7b36302b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Head">
+      <UniqueIdentifier>{3b064ba1-6c42-4858-8c57-890f047afcc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Head">
+      <UniqueIdentifier>{6b91a03a-4649-463a-80e9-eb8d373d439c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Legs">
+      <UniqueIdentifier>{756d0eb1-45fb-4997-ab60-f0b1872963aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\LFA">
+      <UniqueIdentifier>{8d2ef327-0520-4f69-9930-25231c631790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\LH">
+      <UniqueIdentifier>{d9b4fa85-0639-4df5-b403-081dec5ec926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\LUA">
+      <UniqueIdentifier>{2592ce85-d6f1-4ac4-816a-e51350c4167e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\RFA">
+      <UniqueIdentifier>{94c1d818-b215-4d81-ae63-9bd343248463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\RH">
+      <UniqueIdentifier>{d0af0cc8-26e4-473b-ade8-ed5575fab1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\RUA">
+      <UniqueIdentifier>{bf6c1acf-1b4b-4f03-afa0-7fa4138e9742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Tool">
+      <UniqueIdentifier>{919b26f0-a14f-4422-817c-df3574f7373e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Torso">
+      <UniqueIdentifier>{2de37a65-6d3d-459f-82ea-f9900e2e8eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Legs">
+      <UniqueIdentifier>{fe0824cf-2bd1-4db5-a9ba-243f5b310e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\LFA">
+      <UniqueIdentifier>{5302b13d-8c4d-47c3-96e6-be7606c89858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\LH">
+      <UniqueIdentifier>{c188b42d-ac0f-48d4-bddf-32813fc608b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\LUA">
+      <UniqueIdentifier>{7a1f71c3-c45d-4db2-b645-075a4f630fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Torso">
+      <UniqueIdentifier>{80be8dbf-19b2-4989-ade1-d6d79a78ac57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Tool">
+      <UniqueIdentifier>{df8e683c-8011-4055-aa93-3d4e70983fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\RUA">
+      <UniqueIdentifier>{3a340729-e763-472e-86bc-36f23e0be2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\RH">
+      <UniqueIdentifier>{2d8f4be4-699f-4d83-b158-94f701aff313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\RFA">
+      <UniqueIdentifier>{c8af303f-5a49-4c31-b9aa-7813463e65c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Harvest Stats">
+      <UniqueIdentifier>{e2339f69-af8d-4f1d-99e4-adbc1e262cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Harvest Stats">
+      <UniqueIdentifier>{dd332df1-7ff7-4ca0-919a-accca6ea5422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Character Prime Conductor">
+      <UniqueIdentifier>{684bc07c-5bca-44b3-94ac-e7a4137895f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Character Prime Conductor">
+      <UniqueIdentifier>{45ea0383-ba4d-4302-938e-0c88eecabc3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\Char Prime Conductor Cache Node">
+      <UniqueIdentifier>{def299e8-93ba-480d-b14b-6144dac6acf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Char Prime Conductor Cache Node">
+      <UniqueIdentifier>{1b0ef00e-31f1-43ff-a47d-2376a9311894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Static PNG Cache">
+      <UniqueIdentifier>{207686b8-dbc7-4d47-b04c-47b75d96275d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Static PNG Cache">
+      <UniqueIdentifier>{21778a9b-43e6-4d12-8882-9c94b5c6a03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventory">
+      <UniqueIdentifier>{36ac19e2-62f1-46fe-b9a2-bbf626aad74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventory">
+      <UniqueIdentifier>{a2e1f3a8-44f9-4e53-83f3-c84376b9c2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gear">
+      <UniqueIdentifier>{66034ad3-2e9d-4be4-822a-bb7e8b45e5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gear">
+      <UniqueIdentifier>{7d7a5771-21f7-43c3-a218-9a092be63c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gear/Inventory Conductor">
+      <UniqueIdentifier>{c1c2e9b7-b658-4ee0-9a9b-1abf46c391cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gear/Inventory Conductor">
+      <UniqueIdentifier>{7a2e3577-4487-4216-affe-70ed8c146d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gear\Stone">
+      <UniqueIdentifier>{2f084380-0a73-46ae-b88f-64f9b23fec3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gear\Stone">
+      <UniqueIdentifier>{2520a405-60d3-48e7-a1a7-e9f999e88687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Progression">
+      <UniqueIdentifier>{2ec602f3-5c88-42a4-8b4a-08de596e1625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Progression">
+      <UniqueIdentifier>{64ab9f7e-b308-4ea5-beb2-e3481df5f242}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SAO_Main_Screen_Math.cpp">
+      <Filter>Source Files\Main Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Main_Screen_Particle_Math.cpp">
+      <Filter>Source Files\Main Screen\Main Screen Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Idle_Experiment.cpp">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Main_Buttons_Math.cpp">
+      <Filter>Source Files\Main Screen\Main Screen Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Main_Title_Math.cpp">
+      <Filter>Source Files\Main Screen\Main Screen Title</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Main_Screen_Conductor.cpp">
+      <Filter>Source Files\Main Screen\Main Screen Conductor</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Main_Screen_Conductor_Cache_Node.cpp">
+      <Filter>Source Files\Main Screen\Main Screen Conductor Cache Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Main_Screen_Math_Cache_Node.cpp">
+      <Filter>Source Files\Main Screen\Main Screen Math Cache Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Prime_Cache_Node.cpp">
+      <Filter>Source Files\Prime Cache Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Prime_Conductor.cpp">
+      <Filter>Source Files\Prime Conductor</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Upper_Small_Math.cpp">
+      <Filter>Source Files\Language\Upper</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Upper_Medium_Math.cpp">
+      <Filter>Source Files\Language\Upper</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Upper_Large_Math.cpp">
+      <Filter>Source Files\Language\Upper</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Upper_Conductor.cpp">
+      <Filter>Source Files\Language\Upper</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Lower_Small_Math.cpp">
+      <Filter>Source Files\Language\Lower</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Lower_Medium_Math.cpp">
+      <Filter>Source Files\Language\Lower</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Lower_Large_Math.cpp">
+      <Filter>Source Files\Language\Lower</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Lower_Conductor.cpp">
+      <Filter>Source Files\Language\Lower</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Punctuation_Small_Math.cpp">
+      <Filter>Source Files\Language\Punctuation</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Punctuation_Medium_Math.cpp">
+      <Filter>Source Files\Language\Punctuation</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Punctuation_Large_Math.cpp">
+      <Filter>Source Files\Language\Punctuation</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Punctuation_Conductor.cpp">
+      <Filter>Source Files\Language\Punctuation</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Symbol_Small_Math.cpp">
+      <Filter>Source Files\Language\Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Symbol_Medium_Math.cpp">
+      <Filter>Source Files\Language\Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Symbol_Large_Math.cpp">
+      <Filter>Source Files\Language\Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Symbol_Conductor.cpp">
+      <Filter>Source Files\Language\Symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Numbers_Small_Math.cpp">
+      <Filter>Source Files\Language\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Numbers_Medium_Math.cpp">
+      <Filter>Source Files\Language\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Numbers_Large_Math.cpp">
+      <Filter>Source Files\Language\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Numbers_Conductor.cpp">
+      <Filter>Source Files\Language\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_UP_LOW_SYM_PUN_NUM_Conductor.cpp">
+      <Filter>Source Files\Language\Up Low Sym Pun Num Conductor</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_English_Rules_Math.cpp">
+      <Filter>Source Files\Language\English Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Definitions_Math.cpp">
+      <Filter>Source Files\Language\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Word_Proper_Math.cpp">
+      <Filter>Source Files\Language\Word Proper</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Alphabet_Conductor.cpp">
+      <Filter>Source Files\Language\Alphabet Conductor</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Toth_Maximized_Overlay_Math.cpp">
+      <Filter>Source Files\Toth\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Toth_Minimized_Overlay_Math.cpp">
+      <Filter>Source Files\Toth\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Toth_Overlay_Conductor.cpp">
+      <Filter>Source Files\Toth\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Toth.cpp">
+      <Filter>Source Files\Toth</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Alphabet_Startup.cpp">
+      <Filter>Source Files\Language\Alphabet Conductor</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Settlement_Math.cpp">
+      <Filter>Source Files\Settlement</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Settlement_Conductor.cpp">
+      <Filter>Source Files\Settlement</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Game_Conductor_Cache_Node.cpp">
+      <Filter>Source Files\Game Conductor Cache Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Settlement_Conductor_Cache_Node.cpp">
+      <Filter>Source Files\Settlement\Settlement Conductor Cache Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Harvest_Tall_Grass_Math.cpp">
+      <Filter>Source Files\Harvest</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Harvest_Tall_Grass_Conductor.cpp">
+      <Filter>Source Files\Harvest</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Harvest_Tall_Grass_Conductor_Cache_Node.cpp">
+      <Filter>Source Files\Harvest\Harvest Tall Grass Cache Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Feet_Math.cpp">
+      <Filter>Source Files\Character\Feet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Feet_Conductor.cpp">
+      <Filter>Source Files\Character\Feet</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Head_Math.cpp">
+      <Filter>Source Files\Character\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Head_Conductor.cpp">
+      <Filter>Source Files\Character\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Legs_Math.cpp">
+      <Filter>Source Files\Character\Legs</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Legs_Conductor.cpp">
+      <Filter>Source Files\Character\Legs</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_LFA_Math.cpp">
+      <Filter>Source Files\Character\LFA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_LFA_Conductor.cpp">
+      <Filter>Source Files\Character\LFA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_LH_Math.cpp">
+      <Filter>Source Files\Character\LH</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_LH_Conductor.cpp">
+      <Filter>Source Files\Character\LH</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_LUA_Math.cpp">
+      <Filter>Source Files\Character\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_LUA_Conductor.cpp">
+      <Filter>Source Files\Character\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_RUA_Math.cpp">
+      <Filter>Source Files\Character\RUA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_RFA_Math.cpp">
+      <Filter>Source Files\Character\RFA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_RFA_Conductor.cpp">
+      <Filter>Source Files\Character\RFA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_RH_Math.cpp">
+      <Filter>Source Files\Character\RH</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_RH_Conductor.cpp">
+      <Filter>Source Files\Character\RH</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_RUA_Conductor.cpp">
+      <Filter>Source Files\Character\RUA</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Tool_Math.cpp">
+      <Filter>Source Files\Character\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Tool_Conductor.cpp">
+      <Filter>Source Files\Character\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Torso_Math.cpp">
+      <Filter>Source Files\Character\Torso</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Base_Harvest_Action_Torso_Conductor.cpp">
+      <Filter>Source Files\Character\Torso</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Character_Harvest_Stats.cpp">
+      <Filter>Source Files\Character\Harvest Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Character_Prime_Conductor.cpp">
+      <Filter>Source Files\Character\Character Prime Conductor</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Character_Prime_Conductor_Cache_Node.cpp">
+      <Filter>Source Files\Character\Char Prime Conductor Cache Node</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Character_Harvest_Source.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Static_PNG_Cache.cpp">
+      <Filter>Source Files\Static PNG Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Inventory_Math.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Gear_Math.cpp">
+      <Filter>Source Files\Gear</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Inventory_Conductor.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Gear_Conductor.cpp">
+      <Filter>Source Files\Gear</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Gear_Inventory_Conductor.cpp">
+      <Filter>Source Files\Gear/Inventory Conductor</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Stone_Sickle_Math.cpp">
+      <Filter>Source Files\Gear\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Stone_Sickle_Conductor.cpp">
+      <Filter>Source Files\Gear\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Progression_Math.cpp">
+      <Filter>Source Files\Progression</Filter>
+    </ClCompile>
+    <ClCompile Include="SAO_Progression_Conductor.cpp">
+      <Filter>Source Files\Progression</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SAO_Main_Screen_Particle_Math.h">
+      <Filter>Header Files\Main Screen\Main Screen Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Main_Screen_Math.h">
+      <Filter>Header Files\Main Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Main_Buttons_Math.h">
+      <Filter>Header Files\Main Screen\Main Screen Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Main_Title_Math.h">
+      <Filter>Header Files\Main Screen\Main Screen Title</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Main_Screen_Conductor.h">
+      <Filter>Header Files\Main Screen\Main Screen Conductor</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Main_Screen_Conductor_Cache_Node.h">
+      <Filter>Header Files\Main Screen\Main Screen Conductor Cache Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Main_Screen_Math_Cache_Node.h">
+      <Filter>Header Files\Main Screen\Main Screen Math Cache Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Prime_Cache_Node.h">
+      <Filter>Header Files\Prime Cache Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Prime_Conductor.h">
+      <Filter>Header Files\Prime Conductor</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Upper_Small_Math.h">
+      <Filter>Header Files\Language\Upper</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Upper_Medium_Math.h">
+      <Filter>Header Files\Language\Upper</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Upper_Large_Math.h">
+      <Filter>Header Files\Language\Upper</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Upper_Conductor.h">
+      <Filter>Header Files\Language\Upper</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Lower_Small_Math.h">
+      <Filter>Header Files\Language\Lower</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Lower_Medium_Math.h">
+      <Filter>Header Files\Language\Lower</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Lower_Large_Math.h">
+      <Filter>Header Files\Language\Lower</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Lower_Conductor.h">
+      <Filter>Header Files\Language\Lower</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Punctuation_Small_Math.h">
+      <Filter>Header Files\Language\Punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Punctuation_Medium_Math.h">
+      <Filter>Header Files\Language\Punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Punctuation_Large_Math.h">
+      <Filter>Header Files\Language\Punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Punctuation_Conductor.h">
+      <Filter>Header Files\Language\Punctuation</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Symbol_Small_Math.h">
+      <Filter>Header Files\Language\Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Symbol_Medium_Math.h">
+      <Filter>Header Files\Language\Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Symbol_Large_Math.h">
+      <Filter>Header Files\Language\Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Symbol_Conductor.h">
+      <Filter>Header Files\Language\Symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Numbers_Small_Math.h">
+      <Filter>Header Files\Language\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Numbers_Medium_Math.h">
+      <Filter>Header Files\Language\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Numbers_Large_Math.h">
+      <Filter>Header Files\Language\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Numbers_Conductor.h">
+      <Filter>Header Files\Language\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_UP_LOW_SYM_PUN_NUM_Conductor.h">
+      <Filter>Header Files\Language\Up Low Sym Pun Num Conductor</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_English_Rules_Math.h">
+      <Filter>Header Files\Language\English Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Definitions_Math.h">
+      <Filter>Header Files\Language\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Word_Proper_Math.h">
+      <Filter>Header Files\Language\Word Proper</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Alphabet_Conductor.h">
+      <Filter>Header Files\Language\Alphabet Conductor</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Toth_Maximized_Overlay_Math.h">
+      <Filter>Header Files\Toth\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Toth_Minimized_Overlay_Math.h">
+      <Filter>Header Files\Toth\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Toth_Overlay_Conductor.h">
+      <Filter>Header Files\Toth\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Toth.h">
+      <Filter>Header Files\Toth</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Alphabet_Startup.h">
+      <Filter>Header Files\Language\Alphabet Conductor</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Settlement_Math.h">
+      <Filter>Header Files\Settlement</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Settlement_Conductor.h">
+      <Filter>Header Files\Settlement</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Game_Conductor_Cache_Node.h">
+      <Filter>Header Files\Game Conductor Cache Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Settlement_Conductor_Cache_Node.h">
+      <Filter>Header Files\Settlement\Settlement Conductor Cache Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Harvest_Tall_Grass_Math.h">
+      <Filter>Header Files\Harvest</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Harvest_Tall_Grass_Conductor.h">
+      <Filter>Header Files\Harvest</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Harvest_Tall_Grass_Conductor_Cache_Node.h">
+      <Filter>Header Files\Harvest\Harvest Tall Grass Cache Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Character_Harvest_Types.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Feet_Math.h">
+      <Filter>Header Files\Character\Feet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Feet_Conductor.h">
+      <Filter>Header Files\Character\Feet</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Head_Math.h">
+      <Filter>Header Files\Character\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Head_Conductor.h">
+      <Filter>Header Files\Character\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Legs_Math.h">
+      <Filter>Header Files\Character\Legs</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Legs_Conductor.h">
+      <Filter>Header Files\Character\Legs</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_LFA_Math.h">
+      <Filter>Header Files\Character\LFA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_LFA_Conductor.h">
+      <Filter>Header Files\Character\LFA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_LH_Math.h">
+      <Filter>Header Files\Character\LH</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_LH_Conductor.h">
+      <Filter>Header Files\Character\LH</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_LUA_Math.h">
+      <Filter>Header Files\Character\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_LUA_Conductor.h">
+      <Filter>Header Files\Character\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_RUA_Math.h">
+      <Filter>Header Files\Character\RUA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_RFA_Math.h">
+      <Filter>Header Files\Character\RFA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_RFA_Conductor.h">
+      <Filter>Header Files\Character\RFA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_RH_Math.h">
+      <Filter>Header Files\Character\RH</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_RH_Conductor.h">
+      <Filter>Header Files\Character\RH</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_RUA_Conductor.h">
+      <Filter>Header Files\Character\RUA</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Tool_Math.h">
+      <Filter>Header Files\Character\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Tool_Conductor.h">
+      <Filter>Header Files\Character\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Torso_Math.h">
+      <Filter>Header Files\Character\Torso</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Base_Harvest_Action_Torso_Conductor.h">
+      <Filter>Header Files\Character\Torso</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Character_Harvest_Stats.h">
+      <Filter>Header Files\Character\Harvest Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Character_Prime_Conductor.h">
+      <Filter>Header Files\Character\Character Prime Conductor</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Character_Prime_Conductor_Cache_Node.h">
+      <Filter>Header Files\Character\Char Prime Conductor Cache Node</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Character_Harvest_Source.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Static_PNG_Cache.h">
+      <Filter>Header Files\Static PNG Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Inventory_Math.h">
+      <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Gear_Math.h">
+      <Filter>Header Files\Gear</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Inventory_Conductor.h">
+      <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Gear_Conductor.h">
+      <Filter>Header Files\Gear</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Gear_Inventory_Conductor.h">
+      <Filter>Header Files\Gear/Inventory Conductor</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Stone_Sickle_Math.h">
+      <Filter>Header Files\Gear\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Stone_Sickle_Conductor.h">
+      <Filter>Header Files\Gear\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Progression_Math.h">
+      <Filter>Header Files\Progression</Filter>
+    </ClInclude>
+    <ClInclude Include="SAO_Progression_Conductor.h">
+      <Filter>Header Files\Progression</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

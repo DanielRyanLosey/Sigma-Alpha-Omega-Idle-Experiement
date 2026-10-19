@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6bdd1f92-21fe-441d-9518-29946d3f6c9c}</ProjectGuid>
+    <RootNamespace>SigmaAlphaOmegaIdleExperiement</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SAO_Idle_Experiment.cpp" />
+    <ClCompile Include="SAO_Main_Screen_Math.cpp" />
+    <ClCompile Include="SAO_Main_Screen_Particle_Math.cpp" />
+    <ClCompile Include="SAO_Main_Buttons_Math.cpp" />
+    <ClCompile Include="SAO_Main_Title_Math.cpp" />
+    <ClCompile Include="SAO_Main_Screen_Conductor.cpp" />
+    <ClCompile Include="SAO_Main_Screen_Conductor_Cache_Node.cpp" />
+    <ClCompile Include="SAO_Main_Screen_Math_Cache_Node.cpp" />
+    <ClCompile Include="SAO_Prime_Cache_Node.cpp" />
+    <ClCompile Include="SAO_Prime_Conductor.cpp" />
+    <ClCompile Include="SAO_Upper_Small_Math.cpp" />
+    <ClCompile Include="SAO_Upper_Medium_Math.cpp" />
+    <ClCompile Include="SAO_Upper_Large_Math.cpp" />
+    <ClCompile Include="SAO_Upper_Conductor.cpp" />
+    <ClCompile Include="SAO_Lower_Small_Math.cpp" />
+    <ClCompile Include="SAO_Lower_Medium_Math.cpp" />
+    <ClCompile Include="SAO_Lower_Large_Math.cpp" />
+    <ClCompile Include="SAO_Lower_Conductor.cpp" />
+    <ClCompile Include="SAO_Punctuation_Small_Math.cpp" />
+    <ClCompile Include="SAO_Punctuation_Medium_Math.cpp" />
+    <ClCompile Include="SAO_Punctuation_Large_Math.cpp" />
+    <ClCompile Include="SAO_Punctuation_Conductor.cpp" />
+    <ClCompile Include="SAO_Symbol_Small_Math.cpp" />
+    <ClCompile Include="SAO_Symbol_Medium_Math.cpp" />
+    <ClCompile Include="SAO_Symbol_Large_Math.cpp" />
+    <ClCompile Include="SAO_Symbol_Conductor.cpp" />
+    <ClCompile Include="SAO_Numbers_Small_Math.cpp" />
+    <ClCompile Include="SAO_Numbers_Medium_Math.cpp" />
+    <ClCompile Include="SAO_Numbers_Large_Math.cpp" />
+    <ClCompile Include="SAO_Numbers_Conductor.cpp" />
+    <ClCompile Include="SAO_UP_LOW_SYM_PUN_NUM_Conductor.cpp" />
+    <ClCompile Include="SAO_English_Rules_Math.cpp" />
+    <ClCompile Include="SAO_Definitions_Math.cpp" />
+    <ClCompile Include="SAO_Word_Proper_Math.cpp" />
+    <ClCompile Include="SAO_Alphabet_Conductor.cpp" />
+    <ClCompile Include="SAO_Toth_Maximized_Overlay_Math.cpp" />
+    <ClCompile Include="SAO_Toth_Minimized_Overlay_Math.cpp" />
+    <ClCompile Include="SAO_Toth_Overlay_Conductor.cpp" />
+    <ClCompile Include="SAO_Toth.cpp" />
+    <ClCompile Include="SAO_Alphabet_Startup.cpp" />
+    <ClCompile Include="SAO_Settlement_Math.cpp" />
+    <ClCompile Include="SAO_Settlement_Conductor.cpp" />
+    <ClCompile Include="SAO_Game_Conductor_Cache_Node.cpp" />
+    <ClCompile Include="SAO_Settlement_Conductor_Cache_Node.cpp" />
+    <ClCompile Include="SAO_Harvest_Tall_Grass_Math.cpp" />
+    <ClCompile Include="SAO_Harvest_Tall_Grass_Conductor.cpp" />
+    <ClCompile Include="SAO_Harvest_Tall_Grass_Conductor_Cache_Node.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Feet_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Feet_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Head_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Head_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Legs_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Legs_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_LFA_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_LFA_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_LH_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_LH_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_LUA_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_LUA_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_RUA_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_RFA_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_RFA_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_RH_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_RH_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_RUA_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Tool_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Tool_Conductor.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Torso_Math.cpp" />
+    <ClCompile Include="SAO_Base_Harvest_Action_Torso_Conductor.cpp" />
+    <ClCompile Include="SAO_Character_Harvest_Stats.cpp" />
+    <ClCompile Include="SAO_Character_Prime_Conductor.cpp" />
+    <ClCompile Include="SAO_Character_Prime_Conductor_Cache_Node.cpp" />
+    <ClCompile Include="SAO_Character_Harvest_Source.cpp" />
+    <ClCompile Include="SAO_Static_PNG_Cache.cpp" />
+    <ClCompile Include="SAO_Inventory_Math.cpp" />
+    <ClCompile Include="SAO_Gear_Math.cpp" />
+    <ClCompile Include="SAO_Inventory_Conductor.cpp" />
+    <ClCompile Include="SAO_Gear_Conductor.cpp" />
+    <ClCompile Include="SAO_Gear_Inventory_Conductor.cpp" />
+    <ClCompile Include="SAO_Stone_Sickle_Math.cpp" />
+    <ClCompile Include="SAO_Stone_Sickle_Conductor.cpp" />
+    <ClCompile Include="SAO_Progression_Math.cpp" />
+    <ClCompile Include="SAO_Progression_Conductor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SAO_Progression_Conductor.h" />
+    <ClInclude Include="SAO_Progression_Math.h" />
+    <ClInclude Include="SAO_Stone_Sickle_Conductor.h" />
+    <ClInclude Include="SAO_Stone_Sickle_Math.h" />
+    <ClInclude Include="SAO_Gear_Inventory_Conductor.h" />
+    <ClInclude Include="SAO_Gear_Conductor.h" />
+    <ClInclude Include="SAO_Inventory_Conductor.h" />
+    <ClInclude Include="SAO_Gear_Math.h" />
+    <ClInclude Include="SAO_Inventory_Math.h" />
+    <ClInclude Include="SAO_Static_PNG_Cache.h" />
+    <ClInclude Include="SAO_Character_Harvest_Source.h" />
+    <ClInclude Include="SAO_Character_Prime_Conductor_Cache_Node.h" />
+    <ClInclude Include="SAO_Character_Prime_Conductor.h" />
+    <ClInclude Include="SAO_Character_Harvest_Stats.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Torso_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Torso_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Tool_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Tool_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_RUA_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_RH_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_RH_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_RFA_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_RFA_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_RUA_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_LUA_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_LUA_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_LH_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_LH_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_LFA_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_LFA_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Legs_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Legs_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Head_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Head_Math.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Feet_Conductor.h" />
+    <ClInclude Include="SAO_Base_Harvest_Action_Feet_Math.h" />
+    <ClInclude Include="SAO_Character_Harvest_Types.h" />
+    <ClInclude Include="SAO_Harvest_Tall_Grass_Conductor_Cache_Node.h" />
+    <ClInclude Include="SAO_Harvest_Tall_Grass_Conductor.h" />
+    <ClInclude Include="SAO_Harvest_Tall_Grass_Math.h" />
+    <ClInclude Include="SAO_Settlement_Conductor_Cache_Node.h" />
+    <ClInclude Include="SAO_Game_Conductor_Cache_Node.h" />
+    <ClInclude Include="SAO_Settlement_Conductor.h" />
+    <ClInclude Include="SAO_Settlement_Math.h" />
+    <ClInclude Include="SAO_Alphabet_Startup.h" />
+    <ClInclude Include="SAO_Toth.h" />
+    <ClInclude Include="SAO_Toth_Overlay_Conductor.h" />
+    <ClInclude Include="SAO_Toth_Minimized_Overlay_Math.h" />
+    <ClInclude Include="SAO_Toth_Maximized_Overlay_Math.h" />
+    <ClInclude Include="SAO_Alphabet_Conductor.h" />
+    <ClInclude Include="SAO_Word_Proper_Math.h" />
+    <ClInclude Include="SAO_Definitions_Math.h" />
+    <ClInclude Include="SAO_English_Rules_Math.h" />
+    <ClInclude Include="SAO_UP_LOW_SYM_PUN_NUM_Conductor.h" />
+    <ClInclude Include="SAO_Numbers_Conductor.h" />
+    <ClInclude Include="SAO_Numbers_Large_Math.h" />
+    <ClInclude Include="SAO_Numbers_Medium_Math.h" />
+    <ClInclude Include="SAO_Numbers_Small_Math.h" />
+    <ClInclude Include="SAO_Symbol_Conductor.h" />
+    <ClInclude Include="SAO_Symbol_Large_Math.h" />
+    <ClInclude Include="SAO_Symbol_Medium_Math.h" />
+    <ClInclude Include="SAO_Symbol_Small_Math.h" />
+    <ClInclude Include="SAO_Punctuation_Conductor.h" />
+    <ClInclude Include="SAO_Punctuation_Large_Math.h" />
+    <ClInclude Include="SAO_Punctuation_Medium_Math.h" />
+    <ClInclude Include="SAO_Punctuation_Small_Math.h" />
+    <ClInclude Include="SAO_Lower_Conductor.h" />
+    <ClInclude Include="SAO_Lower_Large_Math.h" />
+    <ClInclude Include="SAO_Lower_Medium_Math.h" />
+    <ClInclude Include="SAO_Lower_Small_Math.h" />
+    <ClInclude Include="SAO_Upper_Conductor.h" />
+    <ClInclude Include="SAO_Upper_Large_Math.h" />
+    <ClInclude Include="SAO_Upper_Medium_Math.h" />
+    <ClInclude Include="SAO_Upper_Small_Math.h" />
+    <ClInclude Include="SAO_Prime_Conductor.h" />
+    <ClInclude Include="SAO_Prime_Cache_Node.h" />
+    <ClInclude Include="SAO_Main_Screen_Math_Cache_Node.h" />
+    <ClInclude Include="SAO_Main_Screen_Conductor_Cache_Node.h" />
+    <ClInclude Include="SAO_Main_Screen_Conductor.h" />
+    <ClInclude Include="SAO_Main_Title_Math.h" />
+    <ClInclude Include="SAO_Main_Buttons_Math.h" />
+    <ClInclude Include="SAO_Main_Screen_Particle_Math.h" />
+    <ClInclude Include="SAO_Main_Screen_Math.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

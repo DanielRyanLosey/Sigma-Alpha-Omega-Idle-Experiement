@@ -1,0 +1,26 @@
+Source: C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\Sigma Alpha Omega Idle Experiement
+Assets: C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets
+Changed: 0
+RELATIVE LOOKUP (unchanged): SAO_Lower_Small_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Lowercase\Lower Small
+RELATIVE LOOKUP (unchanged): SAO_Lower_Medium_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Lowercase\Lower Medium
+RELATIVE LOOKUP (unchanged): SAO_Lower_Large_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Lowercase\Lower Large
+RELATIVE LOOKUP (unchanged): SAO_Upper_Small_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Uppercase\Upper Small
+RELATIVE LOOKUP (unchanged): SAO_Upper_Medium_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Uppercase\Upper Medium
+RELATIVE LOOKUP (unchanged): SAO_Upper_Large_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Uppercase\Upper Large
+RELATIVE LOOKUP (unchanged): SAO_Punctuation_Small_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Punctuation\Punctuation Small
+RELATIVE LOOKUP (unchanged): SAO_Punctuation_Medium_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Punctuation\Punctuation Medium
+RELATIVE LOOKUP (unchanged): SAO_Punctuation_Large_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Punctuation\Punctuation Large
+RELATIVE LOOKUP (unchanged): SAO_Symbol_Small_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Symbols\Symbol Small
+RELATIVE LOOKUP (unchanged): SAO_Symbol_Medium_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Symbols\Symbol Medium
+RELATIVE LOOKUP (unchanged): SAO_Symbol_Large_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Alphabet\Symbols\Symbol Large
+RELATIVE LOOKUP (unchanged): SAO_Numbers_Small_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Numbers 0-9\Numbers Small
+RELATIVE LOOKUP (unchanged): SAO_Numbers_Medium_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Numbers 0-9\Numbers Medium
+RELATIVE LOOKUP (unchanged): SAO_Numbers_Large_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Numbers 0-9\Number Large
+RELATIVE LOOKUP (unchanged): SAO_Main_Buttons_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Main Screen\Buttons Main
+RELATIVE LOOKUP (unchanged): SAO_Main_Screen_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Main Screen
+RELATIVE LOOKUP (unchanged): SAO_Main_Screen_Particle_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Main Screen\Particle Main
+RELATIVE LOOKUP (unchanged): SAO_Main_Title_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Main Screen\Title Symbol Main
+RELATIVE LOOKUP (unchanged): SAO_Toth_Maximized_Overlay_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Toth D.I\Maximized Overlay
+RELATIVE LOOKUP (unchanged): SAO_Toth_Minimized_Overlay_Math.cpp; asset folder present at C:\Users\syphe\OneDrive\Desktop\Sigma Alpha Omega Idle Experiment\SAO_I_E Assets\Toth D.I\Minimized Overlay
+Definitions: source path already customized; unchanged
+Word Proper: existing customized TSV path left untouched
