@@ -234,6 +234,35 @@ Helpful reports include:
 
 I am seeking investment and development partnerships to continue expanding Sigma Alpha Omega, formalize the D.I. architecture, improve its authoring tools, and explore additional commercial applications.
 
+## Support Sigma Alpha Omega and D.I. Development
+
+I’m Daniel Losey, the creator of Sigma Alpha Omega and the Deterministic Intelligence architecture behind it.
+
+I built this working game to make the architecture tangible. You can explore its scenes, harvest resources, manage inventory, change equipment, and observe its resource usage on your own computer.
+
+My goal is to keep expanding the game while developing the underlying architecture for broader real-world applications, including interactive education, training, technical documentation, and configurable visual systems.
+
+If you enjoy the game or see potential in this work, please consider supporting its continued development.
+
+Contributions help me dedicate more time and resources to:
+
+- New environments, equipment, activities, and visual content.
+- Improvements to the D.I. modules and conductors.
+- Compatibility testing, bug fixes, and release quality.
+- Documentation and tools that make the architecture easier to understand and build upon.
+- Demonstrations of its capabilities beyond the game.
+
+**[Support development through PayPal](https://paypal.me/daniellosey1)**
+
+Contributions are voluntary support for development and do not purchase equity or promise a financial return.
+
+If you cannot contribute financially, playing the game, sharing the repository, and reporting your experience are valuable ways to help.
+
+Thank you for supporting independent development and giving this work the opportunity to grow.
+
+**Daniel Losey**  
+Creator of Sigma Alpha Omega and the D.I. architecture
+
 The working game provides a practical starting point: download it, experience the interactions, and observe its behavior on your own system.
 
 **Daniel Losey — Creator of Sigma Alpha Omega and the D.I. architecture.**
